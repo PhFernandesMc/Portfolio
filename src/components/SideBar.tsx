@@ -26,7 +26,7 @@ const SideBar = () => {
           >
             <li className="link-list-items">
               <LinkedInIcon className="contact-icons" />
-              <p>LinkedIn - Pedro Campus</p>
+              <p>LinkedIn - Pedro Fernandes</p>
             </li>
           </a>
           <a href="https://github.com/PhFernandesMc" target="_blank">
