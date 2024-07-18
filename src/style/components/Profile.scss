@@ -1,0 +1,53 @@
+.profile-main-container {
+  height: 100%;
+}
+.profile-under-container {
+  display: flex;
+  height: 100%;
+}
+
+.profile-under-left-container {
+  flex-grow: 1;
+  min-width: 200px;
+}
+
+.profile-under-right-container {
+  flex-grow: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-list-categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 76%;
+  gap: 30px;
+}
+
+.profile-items-categories {
+  display: flex;
+  align-self: self-start;
+  gap: 10px;
+  max-width: 380px;
+  font-size: 25px;
+  align-items: center;
+  color: white;
+}
+
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.profile-items {
+  align-self: self-start;
+  max-width: 380px;
+  font-size: 20px;
+  color: white;
+}

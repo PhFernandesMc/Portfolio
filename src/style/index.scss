@@ -1,15 +1,19 @@
+@import "./base/variables.scss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
 }
 
 .main-container {
   display: flex;
   gap: 10px;
   height: 100vh;
-  background-color: rgb(67, 69, 97);
+  background: linear-gradient(90deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
   padding: 10px;
 }
 
@@ -24,8 +28,8 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  padding: 20px 30px;
-  background-color: rgba(253, 253, 253, 0.104);
+  background-color: $primaryColor;
+  box-shadow: $shadow;
 }
 
 a {
@@ -35,4 +39,16 @@ a {
 
 ul {
   list-style: none;
+}
+
+.title {
+  height: 13%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  padding: 30px 30px 0px;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
