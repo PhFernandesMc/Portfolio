@@ -1,5 +1,4 @@
 import "../style/pages/AboutPage.scss";
-import PersonIcon from "@mui/icons-material/Person";
 import SchoolIcon from "@mui/icons-material/School";
 import CodeIcon from "@mui/icons-material/Code";
 import SkillsList from "../components/SkillsList";
@@ -24,9 +23,6 @@ const AboutPage = () => {
       </h1>
       <div className="about-container">
         <section className="sections -personal">
-          <h1 className="title">
-            <PersonIcon /> Profile
-          </h1>
           <div className="profile-container">
             <Profile />
           </div>

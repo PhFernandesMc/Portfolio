@@ -1,5 +1,6 @@
 import SchoolIcon from "@mui/icons-material/School";
 import "../style/components/EducationTimeLine.scss";
+import { Link } from "react-router-dom";
 
 const EducationTimeLine = () => {
   return (
@@ -32,6 +33,9 @@ const EducationTimeLine = () => {
             I built interactive projects like a calculator, memory game, and
             Tic-Tac-Toe.
           </p>
+          <Link to="https://drive.google.com/file/d/1gZteRce4AiD_yNSbujxfh7bwKQQy1qyy/view?usp=drive_link">
+            <button className="certificate-btn">Check certificate</button>
+          </Link>
           <span className="right-container-arrow"></span>
         </div>
       </div>
@@ -47,6 +51,9 @@ const EducationTimeLine = () => {
             environment at ITTTI. This empowered seamless collaboration and
             equipped me with the advanced skills I desired.
           </p>
+          <Link to="https://drive.google.com/file/d/1j_Ta9ig-nzoIG20f804eKL7w2s9wrqNA/view?usp=drive_link">
+            <button className="certificate-btn">Check certificate</button>
+          </Link>
           <span className="left-container-arrow"></span>
         </div>
       </div>
@@ -62,6 +69,9 @@ const EducationTimeLine = () => {
             communication proved valuable in IT, aiding data flow optimization,
             server infrastructure management, and seamless team collaboration.
           </p>
+          <Link to="https://drive.google.com/file/d/1QSZ6AZ0Qb6HMeh9wUz_cU4O77xps-1L5/view?usp=drive_link">
+            <button className="certificate-btn">Check certificate</button>
+          </Link>
           <span className="right-container-arrow"></span>
         </div>
       </div>
