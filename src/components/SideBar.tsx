@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import RoomIcon from "@mui/icons-material/Room";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
+import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import profile from "/images/profile.png";
 import "../style/components/Sidebar.scss";
 
@@ -51,7 +52,15 @@ const SideBar = () => {
           </li>
           <li className="list-moreDetails-items">
             <PhoneAndroidIcon />
-            <p>+1 {"(778)"} 723 - 0142</p>
+            <a href="tel:+1-778-723-0142">
+              <p>+1 {"(778)"} 723 - 0142</p>
+            </a>
+          </li>
+          <li className="list-moreDetails-items">
+            <AlternateEmailIcon />
+            <a href="mailto:phfernandesmc@gmail.com">
+              <p>phfernandesmc@gmail.com</p>
+            </a>
           </li>
         </ul>
       </div>
