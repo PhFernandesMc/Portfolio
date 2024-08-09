@@ -4,8 +4,7 @@ import css from "/icons/css3-svgrepo-com.svg";
 import sass from "/icons/sass-svgrepo-com.svg";
 import next from "/icons/next-js-svgrepo-com.svg";
 import node from "/icons/node-js-svgrepo-com.svg";
-import astro from "/icons/astro-svgrepo-com.svg";
-import python from "/icons/python-svgrepo-com.svg";
+import java from "/icons/java-svgrepo-com.svg"
 import mongo from "/icons/mongo-svgrepo-com.svg";
 import typeScript from "/icons/typescript-icon-svgrepo-com.svg";
 import javaScript from "/icons/javascript-logo-svgrepo-com.svg";
@@ -51,17 +50,13 @@ const SkillsList = () => {
       path: next,
     },
     {
-      name: "Astro",
-      path: astro,
-    },
-    {
-      name: "Python",
-      path: python,
-    },
-    {
       name: "Node.js",
       path: node,
     },
+    {
+      name: "Java",
+      path: java
+    }, 
     {
       name: "MongoDB",
       path: mongo,

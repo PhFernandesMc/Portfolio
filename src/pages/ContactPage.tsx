@@ -2,6 +2,8 @@ import "../style/pages/ContactPage.scss";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
+import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import { FormEvent, useState } from "react";
 
 const ContactPage = () => {
@@ -48,7 +50,9 @@ const ContactPage = () => {
               <label htmlFor="input-message">Type your message</label>
               <textarea id="input-message" name="message" required></textarea>
             </div>
-            <button className="form-btn" type="submit">Submit Form</button>
+            <button className="form-btn" type="submit">
+              Submit Form
+            </button>
           </form>
           <span className="form-result">{result}</span>
         </div>
@@ -73,6 +77,18 @@ const ContactPage = () => {
               <li className="contact-items">
                 <InstagramIcon className="contact-icons" />
                 <p>Instagram - phfernandesmc</p>
+              </li>
+            </a>
+            <a href="tel:+1-778-723-0142">
+              <li className="contact-items">
+                <PhoneAndroidIcon />
+                <p>+1 {"(778)"} 723 - 0142</p>
+              </li>
+            </a>
+            <a href="mailto:phfernandesmc@gmail.com">
+              <li className="contact-items">
+                <AlternateEmailIcon />
+                <p>phfernandesmc@gmail.com</p>
               </li>
             </a>
           </ul>
