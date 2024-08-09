@@ -10,7 +10,7 @@ import ContactPage from "./pages/ContactPage.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Portfolio",
     element: <Layout />,
     errorElement: <ErrorPage />, // This error page has no layout and should only be reachable in server-crashing errors
     children: [
