@@ -5,17 +5,17 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="navbar-list">
-        <Link to="/">
+        <Link to="/Portfolio">
           <li className="navbar-items">
             <p>About</p>
           </li>
         </Link>
-        <Link to="/projects">
+        <Link to="/Portfolio/projects">
           <li className="navbar-items">
             <p>Projects</p>
           </li>
         </Link>
-        <Link to="/contact">
+        <Link to="/Portfolio/contact">
           <li className="navbar-items">
             <p>Contact</p>
           </li>
